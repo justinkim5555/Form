@@ -1,0 +1,89 @@
+body{
+    font-family: 'Merriweather', serif;
+    color:#363E46
+}
+
+
+header{
+    text-align:center;
+}
+
+.nav{
+    background-color:#363E46;
+    padding: 10px;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color:#929eaa;
+}
+
+label{
+    color:#929eaa;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+hr{
+    border: 5px solid;
+}
+
+hr:nth-of-type(2){
+    border: 3px solid;
+}
+
+form hr{
+    border: 3px solid;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:left;
+}
+
+button{
+    color: white;
+    background-color: #45b3ac;
+    padding: 16px 80px;
+    font-size: 16px;
+    border-radius: 5px;
+    border:0;
+    width:100%;
+}
+
+input[type=text],input[type=email],input[type=tel],select, textarea{
+    width: 100%;
+    height: 25px;
+    color:#929eaa;
+    background-color: #eff0f1;
+    border: 0px;
+    border-radius: 5px;
+}
+
+select{
+    margin-top: 15px;
+}
+
+textarea{
+    height:60px;
+    margin:5px 0 15px 0;
+}
+
+
+#caption{
+    font-size: 10000px;
+    padding: 40px 0px;
+    background-color: black;
+}
+
+caption:nth-of-type(2){
+    padding: 20px 0px;
+
+}
