@@ -3,49 +3,8 @@ body{
     color:#363E46
 }
 
-
 header{
     text-align:center;
-}
-
-.nav{
-    background-color:#363E46;
-    padding: 10px;
-}
-
-h1{
-    color: white;
-}
-
-p{
-    color:#929eaa;
-}
-
-label{
-    color:#929eaa;
-    font-size: 14px;
-    padding: 10px 0px;
-}
-
-hr{
-    border: 5px solid;
-}
-
-hr:nth-of-type(2){
-    border: 3px solid;
-}
-
-form hr{
-    border: 3px solid;
-}
-
-
-
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align:left;
 }
 
 button{
@@ -58,17 +17,88 @@ button{
     width:100%;
 }
 
-input[type=text],input[type=email],input[type=tel],select, textarea{
-    width: 100%;
+h1{
+    color: white;
+}
+
+p{
+    color:#929eaa;
+}
+
+/* Horizontal Lines */
+
+hr{
+    border: 5px solid;
+}
+
+hr:nth-of-type(2){
+    border: 3px solid;
+    margin-bottom: 40px;
+}
+
+
+form hr{
+    border: 3px solid;
+    margin-top: 50px;
+}
+
+/* Navigation Section */
+
+.nav{
+    background-color:#363E46;
+    padding: 10px;
+    margin:-8px;
+}
+
+
+.intro h2{
+    margin-top: 40px;
+    text-align: center;
+}
+.intro p{
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+
+/* Form Label and Legend */
+
+label {
+    color:#929eaa;
+    font-size: 14px;
+    padding: 10px 0px;
+
+}
+
+legend{
+    text-align:left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Styling Form Inputs */
+
+fieldset{
+    border:0px;
+}
+
+
+input[type=text],input[type=email],input[type=tel], select[type=text], select, textarea, option{
+    width: 95%;
     height: 25px;
     color:#929eaa;
     background-color: #eff0f1;
     border: 0px;
     border-radius: 5px;
+    text-align: left;
+    padding: 12px;
+    float: block;
 }
 
-select{
-    margin-top: 15px;
+select[type=text]{
+    height: 40px;
+    width: 96%;
 }
 
 textarea{
@@ -76,14 +106,42 @@ textarea{
     margin:5px 0 15px 0;
 }
 
-
-#caption{
-    font-size: 10000px;
-    padding: 40px 0px;
-    background-color: black;
+label{
+    text-align: left;
 }
 
-caption:nth-of-type(2){
-    padding: 20px 0px;
+::placeholder{
+    text-align: right;
+    padding: 3px;
+    font-style: italic;
+    color:#929eaa;
+
+}
+
+
+
+.field-group,.field-group .label, .field-group .field, select{
+    display: block;
+}
+
+/* Second Section of Form */
+
+
+.second-set label, .second-set input{
+    display:block;
+}
+
+.second-set textarea{
+    width:100%;
+}
+
+.field-group:nth-child(8){
+    width:50%;
+}
+
+@media only screen and (min-width: 768px){
+
+
+
 
 }
