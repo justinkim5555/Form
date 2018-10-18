@@ -13,6 +13,7 @@
         <div class="nav">
             <h1>THE CODE REVIEW</h1>
         </div>
+    </header>
         <div class="intro">
         <h2>Signup for our newsletter</h2>
         <p>Get the latest news on how your code is doing right in your inbox</p>
@@ -50,7 +51,7 @@
 
             <div class="field-group">
                 <label class="label" for="state">State</label>
-                <select type="text" name="state" id="state" class="state">
+                <select name="state" id="state" class="state">
                     <option value="" selected disabled class="state">Choose State</option>
                     <option value="California">California</option>
                     <option value="Texas">Texas</option>
@@ -72,25 +73,27 @@
         </fieldset>
         
         <fieldset>
-            <div class = "second-set">
+            
                 <legend>Newsletter</legend>
+                <div class = "second-set">
                 <label for="html">HTML news</label>
                 <input type="checkbox" name="htmlNews" id="htmlNews" value="htmlNews">
                 <label for="html">CSS News</label>
                 <input type="checkbox" name="cssNews" id="cssNews" value="cssNews">
                 <label for="html">Javascript News</label>
                 <input type="checkbox" name="javascriptNews" id="javascriptNews" value="javascriptNews">
-                <legend>Newsletter Format</legend>
+                <h2>Newsletter Format</h2>
                 <label for="html">HTML</label>
                 <input type="radio" name="html" id="html" value="html">
-                <label for="plain">Plain Text</label>
+                <label for="plainText">Plain Text</label>
                 <input type="radio" name="plainText" id="plainText" value="plainText">
                 <label for="other">Other areas you'd like to talk about</label>
-                <textarea type="text" name="other" id="other"></textarea>
+                <textarea name="other" id="other"></textarea>
             </div>
         </fieldset>
         <button value="submit">Sign Up</button>
+        </form>
         
-    </form>
+    
 </body>
 </html>
