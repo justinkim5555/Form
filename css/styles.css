@@ -37,9 +37,11 @@ hr:nth-of-type(2){
 }
 
 
+
 form hr{
     border: 3px solid;
     margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 /* Navigation Section */
@@ -92,12 +94,11 @@ input[type=text],input[type=email],input[type=tel], select, textarea, option{
     border: 0px;
     border-radius: 5px;
     text-align: left;
-    padding: 12px;
+    padding: 12px 0;
 }
 
-select[type=text]{
-    height: 40px;
-    width: 96%;
+select{
+    height: 50px;
 }
 
 textarea{
@@ -111,7 +112,7 @@ label{
 
 ::placeholder{
     text-align: right;
-    padding: 3px;
+    padding: 3px 15px;
     font-style: italic;
     color:#929eaa;
 
@@ -138,8 +139,16 @@ label{
     width:50%;
 }
 
-@media only screen and (min-width: 768px){
 
+footer .copyright{
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px){
+    .container{
+        width: 60%;
+        margin: auto;
+    }
 
 
 
