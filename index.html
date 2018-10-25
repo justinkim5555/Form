@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <title>The Code Review</title>
 </head>
@@ -28,7 +29,7 @@
             <div class="field-group">
                 <label class="label" for="name">Full Name</label>
                 <input class="field" type="text" name="fullName" id="name" placeholder="Required"/>
-            </div>    
+            </div>
 
             <div class="field-group">
                 <label class="label" for="email">Email Address</label>
@@ -69,38 +70,55 @@
 
             <div class="field-group"></div>
 
-            
+
             <hr>
         </fieldset>
-        
+
         <fieldset>
-            
+
                 <legend>Newsletter</legend>
-                <div class = "second-set">
-                <label for="html">HTML news</label>
-                <input type="checkbox" name="htmlNews" id="htmlNews" value="htmlNews">
-                <label for="html">CSS News</label>
-                <input type="checkbox" name="cssNews" id="cssNews" value="cssNews">
-                <label for="html">Javascript News</label>
-                <input type="checkbox" name="javascriptNews" id="javascriptNews" value="javascriptNews">
-                <p>Newsletter Format</p>
-                <label for="html">HTML</label>
-                <input type="radio" name="html" id="html" value="html">
-                <label for="plainText">Plain Text</label>
-                <input type="radio" name="plainText" id="plainText" value="plainText">
                 <br>
-                <label for="other">Other areas you'd like to talk about</label>
-                <textarea name="other" id="other"></textarea>
-            </div>
+                <div class = "second-set">
+                  <div class="sub-group">
+                    <input type="checkbox" name="htmlNews" id="htmlNews" value="htmlNews">
+                    <label for="html">HTML news</label>
+                  </div>
+                  <div class="sub-group">
+                    <input type="checkbox" name="cssNews" id="cssNews" value="cssNews">
+                    <label for="html">CSS News</label>
+                  </div>
+                  <div class="sub-group">
+                    <input type="checkbox" name="javascriptNews" id="javascriptNews" value="javascriptNews">
+                    <label for="html">Javascript News</label>
+                  </div>
+                    <p>Newsletter Format</p>
+                      <div class="sub-group">
+                        <input type="radio" name="html2" id="html2" value="html">
+                        <label for="html2">HTML</label>
+                      </div>
+
+                      <div class="sub-group">
+                        <input type="radio" name="plainText" id="plainText" value="plainText">
+                        <label for="plainText">Plain Text</label>
+                      </div>
+                    <br>
+                    <div class="sub-group">
+                        <label id="last" for="other">Other areas you'd like to talk about</label>
+                        <textarea name="other" id="other"></textarea>
+                  </div>
+                  <button value="submit">Sign Up</button>
+
         </fieldset>
-        <button value="submit">Sign Up</button>
+
+        </div>
         </form>
+
 
         <footer>
             <p class="copyright">&copy; The Code Review</p>
         </footer>
     </div>
-        
-    
+
+
 </body>
 </html>
