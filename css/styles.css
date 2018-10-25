@@ -1,10 +1,6 @@
 body{
     font-family: 'Merriweather', serif;
     color:#363E46
-
-
-
-
 }
 
 header{
@@ -99,6 +95,11 @@ input[type=text],input[type=email],input[type=tel], select, textarea, option{
     border-radius: 5px;
     text-align: left;
     padding: 12px 0;
+}
+
+input:focus{
+  outline: none !important;
+  background-color: lightblue;
 }
 
 select{
